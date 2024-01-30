@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #444;
+  font-family: sans-serif;
+}
+.container {
+  width: 500px;
+  margin: 0 auto;
+  border-top: 5px solid rgb(198, 89, 107);
+}
+
+.navbar a:link {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 20px;
+  border: 5px solid rgb(5, 5, 120);
+}
+
+.main-header {
+  text-align: center;
+  background-color: #f7f7f7;
+  color: #1098ad;
+  margin-bottom: 20px;
+}
+.text-info {
+  width: 350px;
+  /* border: 5px solid black; */
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-bottom:  */
+}
+.text-info p {
+  margin-bottom: 10px;
+}
+.hobby {
+  margin-bottom: 0;
+}
+.hobby-lst {
+  margin-left: 40px;
+}
+
+a:link,
+a:visited {
+  font-weight: bold;
+  text-decoration: none;
+  color: #1098ad;
+}
+
+a:hover {
+  color: red;
+}
